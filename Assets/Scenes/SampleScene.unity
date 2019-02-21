@@ -253,6 +253,7 @@ GameObject:
   - component: {fileID: 534669905}
   - component: {fileID: 534669904}
   - component: {fileID: 534669903}
+  - component: {fileID: 534669906}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -318,12 +319,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.362, y: 5.323, z: -23.118}
+  m_LocalPosition: {x: 4.362, y: 5.608, z: -23.118}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534669906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534669902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fa9dfd5f50a49a4892abfbe50a3ebfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_target: {fileID: 0}
+  offset: {x: 0, y: 0, z: 0}
+  pitch: 2
+  zoomSpeed: 4
+  minZoom: 10
+  maxZoom: 15
 --- !u!1001 &1148868895
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -496,12 +515,32 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!95 &1251566376 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9590292, guid: 4a7441f1d5a8ae743bf566df921cc08d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1148868895}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1251566377 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 4a7441f1d5a8ae743bf566df921cc08d,
     type: 3}
   m_PrefabInstance: {fileID: 1148868895}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1251566378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251566370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a56f374c1a8aa2b45930706859af197f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 1251566376}
+  _agent: {fileID: 1251566374}
 --- !u!1 &1477206129
 GameObject:
   m_ObjectHideFlags: 0

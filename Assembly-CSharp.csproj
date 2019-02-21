@@ -63,7 +63,9 @@
     <Compile Include="Assets\Import Assets\Warrior Pack Bundle 3 FREE\Code\IKHands.cs" />
     <Compile Include="Assets\Import Assets\Warrior Pack Bundle 3 FREE\Code\SmoothFollow.cs" />
     <Compile Include="Assets\Import Assets\Warrior Pack Bundle 3 FREE\Code\WarriorAnimationDemoFREE.cs" />
+    <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\UnitAnimation.cs" />
     <Compile Include="Assets\Scripts\UnitMotor.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/UProject/OnlineProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

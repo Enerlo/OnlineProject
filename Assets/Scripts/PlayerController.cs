@@ -16,8 +16,10 @@ namespace Enerlion
         {
             _camera = Camera.main;
             _motor = GetComponent<UnitMotor>();
+            _camera.GetComponent<CameraController>().target = transform;
+
         }
-        
+
         void Update()
         {
             if (Input.GetMouseButtonDown(1))
